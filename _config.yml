@@ -3,8 +3,8 @@ theme: alembic-jekyll-theme
 # Site settings
 url: alembic-theme-test.netlify.com
 baseurl: ''
-title: 'Netlify & Alembic Test'
-description: 'Testing out Netlify and the Netlify CMS with Alembic for Jekyll'
+title: 'Forestry & Alembic Test'
+description: 'Testing out Forestry with Alembic for Jekyll, served with Netlify'
 permalink: pretty
 
 # Pagination
