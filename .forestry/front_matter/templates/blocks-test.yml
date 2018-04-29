@@ -1,0 +1,10 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: gallery_text
+  label: Gallery text
+- type: image_gallery
+  name: gallery_images
+  label: Gallery images
