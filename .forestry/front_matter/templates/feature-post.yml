@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/2017-12-23-welcome-to-my-blog.md
 hide_body: false
 is_partial: false
 fields:
