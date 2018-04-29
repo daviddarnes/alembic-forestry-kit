@@ -14,3 +14,6 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: blocks
+  template_types:
+  - blocks-test
