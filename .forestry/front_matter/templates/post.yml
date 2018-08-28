@@ -1,0 +1,34 @@
+---
+label: post
+hide_body: false
+is_partial: false
+fields:
+- type: file
+  name: feature_image
+  label: Feature image
+- type: textarea
+  name: feature_text
+  label: Feature text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: select
+  name: category
+  config:
+    source:
+      type: simple
+    options:
+    - General
+  label: Category
+  description: Add a category
+- type: boolean
+  name: aside
+  label: Aside
+  description: Show the sidebar / aside
+- type: boolean
+  name: comments
+  label: Comments
+  description: Turn off comments (make sure to configure comments in _config.yml)
+pages:
+- _posts/2018-08-22-hello-world.md
