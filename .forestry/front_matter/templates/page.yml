@@ -3,6 +3,12 @@ label: page
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the sermon
+  config:
+    required: true
 - type: file
   name: feature_image
   label: Feature image
