@@ -27,6 +27,13 @@ fields:
   name: aside
   label: Aside
   description: Show the sidebar / aside
+- type: textarea
+  name: excerpt
+  label: Excerpt text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: boolean
   name: comments
   label: Comments
